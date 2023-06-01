@@ -1,0 +1,241 @@
+.calc {
+    margin-bottom: 130px;
+}
+
+.calc-title {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.calck-title__text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.calck-title__text-position {
+    position: absolute;
+    left: -180px;
+    bottom: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 174, 52, 0.15);
+}
+
+.calc-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.calc-wrap-calc {
+    width: 842px;
+    height: 560px;
+    box-shadow: 0px 4px 10px #FEDF72;
+    border-radius: 35px;
+    border: 3px solid #FEDF72;
+    position: relative;
+}
+
+.calc-wrap-calc-container {
+    max-width: 710px;
+    margin: auto;
+}
+
+.calc-wrap-calc-title {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.calc-wrap-calc-title__text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.calc-wrap-calc-btn {
+    width: 170px;
+    min-height: 50px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+
+    background: rgba(196, 196, 196, 0.71);
+    border-radius: 35px;
+}
+
+.calc-wrap-calc-button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.calc-wrap-calc-btn:nth-child(4) {
+    border-radius: none;
+    background: none;
+}
+
+.calc-wrap-calc-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.clac-wrap-square__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+.clac-wrap-square-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clac-wrap-square__inpt {
+    width: 170px;
+    height: 50px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.clac-wrap-square__inpt::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.clac-wrap-square__inpt-subtitle {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.calc-wrap-calc-kinds-list {
+    position: relative;
+}
+
+.calc-wrap-calc-kinds__img {
+    position: absolute;
+    bottom: -79px;
+    right: 0px;
+}
+
+.calc-wrap-calc-kinds-title {
+    margin-bottom: 35px;
+}
+
+
+.calc-wrap-calc-kinds-title__text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+
+.calc-wrap-calc-kinds-inpt {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    padding-left: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.calc-wrap-calc-kinds-inpt-opt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.calc-wrap-content {
+    width: 400px;
+    height: 465px;
+    background: rgba(196, 196, 196, 0.15);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 35px 35px 0px;
+}
+
+.calc-wrap-content-container {
+    max-width: 210px;
+    margin: auto;
+}
+
+.calc-wrap-content__title {
+    margin-top: 85px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.calc-wrap-content__price {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 25px;
+    color: #FFAE34;
+    padding-bottom: 45px;
+}
+
+.calc-wrap-content__price-decor {
+    margin-top: 85px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.calc-wrap-content__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+.calc-wrap-content-button {
+    text-align: center;
+}
+
+.calc-wrap-content-btn {
+    width: 210px;
+    min-height: 70px;
+    background: linear-gradient(111.31deg, #FEDF72 34.46%, #FFF4CE 114.1%);
+    box-shadow: 0px 6px 20px 5px rgba(255, 242, 196, 0.87);
+    border-radius: 35px;
+}
+
+.calc-wrap-content-btn-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}

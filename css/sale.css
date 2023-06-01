@@ -1,0 +1,121 @@
+.sale {
+    margin-bottom: 130px;
+}
+
+.sale-title {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.sale-title__text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 45px;
+}
+
+.sale-title__text-position {
+    position: absolute;
+    left: -180px;
+    bottom: 75px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 25px;
+    color: rgba(255, 174, 52, 0.15);
+}
+
+.sale-title__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.sale-wrap-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.sale-wrap-item-photo {
+    position: relative;
+}
+
+.sale-wrap-item-photo__sale {
+    width: 105px;
+    height: 35px;
+    background: #C10000;
+    box-shadow: 0px 4px 4px rgba(188, 2, 2, 0.25);
+    text-align: center;
+    position: absolute;
+    left: -50px;
+    top: 30px;
+}
+
+.sale-wrap-item-photo__img {
+    -webkit-box-shadow: 25px 19px 0px 0px rgb(196, 207, 154);
+    -moz-box-shadow: 25px 19px 0px 0px rgb(182, 176, 82);
+    box-shadow: 25px 19px 0px 0px rgb(196, 207, 154);
+}
+
+.sale-wrap-item-photo__sale-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.sale-wrap-item-content {
+    width: 680px;
+    height: 230px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    position: relative;
+    right: 35px;
+    text-align: center;
+}
+
+.sale-wrap-item-content__subtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    max-width: 535px;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.sale-wrap-item-content__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    max-width: 470px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.sale-wrap-button {
+    text-align: center;
+}
+
+.sale-wrap__btn {
+    background: none;
+    border-bottom: 1px solid #000000;
+}
+
+.sale-wrap__btn-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}

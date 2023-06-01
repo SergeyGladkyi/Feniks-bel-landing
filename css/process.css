@@ -1,0 +1,86 @@
+.process-title {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.process-title__text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.process-title__text-position {
+    position: absolute;
+    left: -180px;
+    bottom: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 174, 52, 0.15);
+}
+
+.process-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    margin-bottom: 105px;
+}
+
+.process-wrap-item {
+    width: 370px;
+    height: 255px;
+    background: url('/img/pracces-wrap-1.png');
+    border-radius: 35px;
+}
+
+.process-wrap-item:nth-child(2) {
+    background: url('/img/process-wrap-2.png');
+}
+
+.process-wrap-item:nth-child(3) {
+    background: url('/img/process-wrap-3.png');
+}
+
+.process-wrap-item:nth-child(4) {
+    background: url('/img/process-wrap-4.png');
+}
+
+.process-wrap-item:nth-child(5) {
+    background: url('/img/process-wrap-5.png');
+}
+
+.process-wrap-item:nth-child(6) {
+    background: url('/img/process-wrap-6.png');
+}
+
+.process-wrap-item__title {
+    max-width: 390px;
+    padding-left: 50px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.process-wrap-item__subtitle {
+    max-width: 300px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.process-wrap-item__num {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 64px;
+    color: rgba(255, 174, 52, 0.8);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+}

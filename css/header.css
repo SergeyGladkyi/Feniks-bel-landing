@@ -1,0 +1,33 @@
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-wrap-contact {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+
+.header-wrap-contact-schedule {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.header-wrap-contact-number {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-wrap-contact-number__tel-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}

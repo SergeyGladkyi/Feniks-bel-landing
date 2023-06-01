@@ -1,0 +1,30 @@
+.portfolio-title {
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.portfolio-title__text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.portfolio-title__text-position {
+    position: absolute;
+    left: -180px;
+    top: -35px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 174, 52, 0.15);
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.portfolio {
+    margin-bottom: 130px;
+}

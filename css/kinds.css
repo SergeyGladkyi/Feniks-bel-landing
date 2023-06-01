@@ -1,0 +1,125 @@
+.kinds-title {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.kinds-title__text-position {
+    position: absolute;
+    left: -180px;
+    top: -35px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 80px;
+    color: rgba(255, 174, 52, 0.15);
+}
+
+.kinds-title__text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+
+.kinds-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.kinds-card-item__btn {
+    width: 270px;
+    min-height: 75px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    text-align: center;
+    background: none;
+}
+
+.kinds-card-item__btn:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #FEDF72;
+    transition: all 0.2s;
+}
+
+.kinds-card-item__btn-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+.kinds-show-more {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kinds-show-more__btn {
+    background: none;
+}
+
+.kinds-show-more__btn_link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+
+.kinds-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.kinds-wrap-content__title {
+    max-width: 372px;
+    margin: auto;
+    padding-bottom: 35px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.kinds-wrap-content__subtitle {
+    max-width: 365px;
+    margin: auto;
+    padding-bottom: 35px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.kinds-subtitle {
+    margin-bottom: 35px;
+}
+
+.kinds-subtitle__text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.kinds-button {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.kinds__btn {
+    width: 280px;
+    min-height: 75px;
+    background: linear-gradient(111.31deg, #FEDF72 34.46%, #FFF4CE 114.1%);
+    box-shadow: 0px 6px 20px 5px rgba(255, 242, 196, 0.87);
+    border-radius: 35px;
+}
+
+.kinds__btn-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
